@@ -32,11 +32,12 @@ Credentials of this public available Sandbox to specify when prompted for it:
 1. Clone this repo in your local machine typing on your terminal "git clone https://github.com/agmanuelian/config_manager.git"
 2. Install the required dependencies specified on the _requirements.txt_ file > "pip install requirements.txt"
 3. Edit the _devices.csv_ file with the parameters (IP address and RESTCONF port) of the list of devices that you want to configure.
-4. Replace the _confgen_response_ JSON object with your infrastructure parameters (NTP server, SNMP and Logging parameters)
-5. Run the _main_file.py_ script.
-6. You will be prompted to enter your TACACS credentials to access the list of devices.
-7. You will be prompted to enter the desired option (whether to configure NTP, Logging or SNMP)
-8. Based on your selection, the script will configure your selection on the list of devices.
+4. Modify on the _main_file.py_ script the directory from where the _devices.csv_ file is read, with your local directory.
+5. Replace the _confgen_response_ JSON object with your infrastructure parameters (NTP server, SNMP and Logging parameters).
+6. Run the _main_file.py_ script.
+7. You will be prompted to enter your TACACS credentials to access the list of devices.
+8. You will be prompted to enter the desired option (whether to configure NTP, Logging or SNMP)
+9. Based on your selection, the script will configure it on the list of devices.
 
 ## Release Notes
 ### Version 1.0
