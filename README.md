@@ -13,9 +13,13 @@ The _devices.csv_ file contains the CSR1000v Always-on DevNet sandbox as part of
 Sandbox URL: https://devnetsandbox.cisco.com/RM/Diagram/Index/27d9747a-db48-4565-8d44-df318fce37ad?diagramType=Topology
 
 CSR1000V Host: ios-xe-mgmt.cisco.com
+
 SSH Port: 8181
+
 NETCONF Port: 10000
+
 RESTCONF Ports: 9443 (HTTPS)
+
 
 Credentials of this public available Sandbox to specify when prompted for it:
 
