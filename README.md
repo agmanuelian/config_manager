@@ -41,6 +41,9 @@ Credentials of this public available Sandbox to specify when prompted for it:
 4. Modify on the _main_file.py_ script the directory from where the _devices.csv_ file is read, with your local directory.
 5. Replace the _confgen_response_ JSON object with your infrastructure parameters (NTP server, SNMP and Logging parameters).
 6. Run the _main_file.py_ script.
+
+```python main_file.py```
+
 7. You will be prompted to enter your TACACS credentials (demo credentials specified on previous section) to access the list of devices.
 8. You will be prompted to enter the desired option (whether to configure NTP, Logging or SNMP)
 9. Based on your selection, the script will configure it on the list of devices.
