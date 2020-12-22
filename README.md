@@ -14,6 +14,7 @@ The _devices.csv_ file contains the CSR1000v Always-on DevNet sandbox as part of
 Credentials of this public available Sandbox to specify when prompted for it:
 
 **Username:** developer
+
 **Password:** C1sco12345
 
 ## Usage
@@ -24,34 +25,8 @@ Credentials of this public available Sandbox to specify when prompted for it:
 4. Replace the _confgen_response_ JSON object with your infrastructure parameters (NTP server, SNMP and Logging parameters)
 5. Run the _main_file.py_ script.
 6. You will be prompted to enter your TACACS credentials to access the list of devices.
-7. You will be prompted to enter the desired option:
-
-+--------+---------+
-| OPTION |  CONFIG |
-+--------+---------+
-|   1    |   NTP   |
-|   2    |   SNMP  |
-|   3    | LOGGING |
-+--------+---------+
-Please select an option: 1
-
+7. You will be prompted to enter the desired option (whether to configure NTP, Logging or SNMP)
 8. Based on your selection, the script will configure your selection on the list of devices.
-
-## Script output
-
-Username: developer
-Password: 
-+--------+---------+
-| OPTION |  CONFIG |
-+--------+---------+
-|   1    |   NTP   |
-|   2    |   SNMP  |
-|   3    | LOGGING |
-+--------+---------+
-Please select an option: 1
--> No VRFs configured!
--> LOG FILE GENERATED
--> SUCCESS! NTP Configured
 
 ## Release Notes
 ### Version 1.0
