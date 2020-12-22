@@ -41,9 +41,11 @@ Credentials of this public available Sandbox to specify when prompted for it:
 4. Modify on the _main_file.py_ script the directory from where the _devices.csv_ file is read, with your local directory.
 5. Replace the _confgen_response_ JSON object with your infrastructure parameters (NTP server, SNMP and Logging parameters).
 6. Run the _main_file.py_ script.
-7. You will be prompted to enter your TACACS credentials to access the list of devices.
+7. You will be prompted to enter your TACACS credentials (demo credentials specified on previous section) to access the list of devices.
 8. You will be prompted to enter the desired option (whether to configure NTP, Logging or SNMP)
 9. Based on your selection, the script will configure it on the list of devices.
+
+REF: **TACACS** is a network device access management protocol. If you have that configure to access all your network devices, you could use your TACACS credentials to access the network devices. Otherwise, using local authentication will work, too.
 
 ## Release Notes
 ### Version 1.0
